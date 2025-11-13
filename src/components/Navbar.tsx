@@ -48,7 +48,7 @@ const Navbar = () => {
               href="#home"
               className="text-xl font-bold transition-opacity duration-300 hover:opacity-80"
             >
-              Portfolio
+              Yaswanth Lagisetty
             </a>
           </div>
 

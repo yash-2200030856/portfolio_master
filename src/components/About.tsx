@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { GraduationCap, Calendar, School, Award, MapPin, Info, FileDown } from "lucide-react";
+import klLogo from "../assets/images/ea9e0c4c-6039-4582-96b0-c8342595bbbd.png";
+import nandyalLogo from "../assets/images/the-nandyal-public-school-s3525.jpg";
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -154,7 +156,7 @@ const About = () => {
       score: "CGPA: 8.95",
       year: "2022-2026",
       icon: <GraduationCap />,
-      logo: "/images/ea9e0c4c-6039-4582-96b0-c8342595bbbd.png",
+      logo: klLogo,
       description: "Computer Science and Engineering",
       location: "Vaddeswaram, Guntur District"
     },
@@ -164,7 +166,7 @@ const About = () => {
       score: "Percentage: 51.7%",
       year: "2020-2022",
       icon: <School />,
-      //logo: "/images/Intermediate.png",
+      logo: "",
       description: "Mathematics, Physics, Chemistry (MPC)",
       location: "Nandyal, Nandyal District"
     },
@@ -174,7 +176,7 @@ const About = () => {
       score: "Percentage: 73.8%",
       year: "2019-2020",
       icon: <Award />,
-      logo: "src/assets/images/the-nandyal-public-school-s3525.jpg",
+      logo: nandyalLogo,
       description: "Central Syllabus",
       location: "Nandyal, Nandyal District"
     }

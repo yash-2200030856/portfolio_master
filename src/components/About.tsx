@@ -174,7 +174,7 @@ const About = () => {
       score: "Percentage: 73.8%",
       year: "2019-2020",
       icon: <Award />,
-      logo: "public/images/the-nandyal-public-school-s3525.jpg",
+      logo: "/images/the-nandyal-public-school-s3525.jpg",
       description: "Central Syllabus",
       location: "Nandyal, Nandyal District"
     }

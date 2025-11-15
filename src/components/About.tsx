@@ -4,9 +4,10 @@ import klLogo from "../assets/images/ea9e0c4c-6039-4582-96b0-c8342595bbbd.png";
 import nandyalLogo from "../assets/images/the-nandyal-public-school-s3525.jpg";
 
 const About = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const sectionRef = useRef<HTMLElement>(null);
 
+  /*
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -28,7 +29,8 @@ const About = () => {
       }
     };
   }, []);
-
+  */
+ 
   const skills = [
     { 
       name: "Java", 

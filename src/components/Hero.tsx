@@ -1,7 +1,6 @@
-//npm run dev to start the project
-
 import { useState, useEffect } from "react";
 import { FileDown } from "lucide-react";
+import portraitImage from "../assets/images/Main_img.jpg";
 
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -67,7 +66,7 @@ const Hero = () => {
             <div className="relative w-full h-full overflow-hidden rounded-full border-4 border-gray-800/50 shadow-xl">
               <div className="absolute inset-0 bg-gray-800 animate-pulse"></div>
               <img
-                src="public/images/Main_img.jpg"
+                src={portraitImage}
                 alt="Yaswanth Portrait"
                 className="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000"
                 onLoad={(e) => (e.currentTarget.style.opacity = "1")}

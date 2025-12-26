@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Github, Star } from "lucide-react";
+import { Github, Star, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,12 +29,31 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Sanchari Escapes Travel Website",
+      description: "A dynamic travel website offering tour packages, bookings, and user reviews, built with TypeScript and Supabase(online server) to enhance user experience and streamline travel planning.",
+      image: "https://th.bing.com/th/id/OIP.QCHSvGP4KbFCVpb4P6VnswHaEK?w=272&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      tags: ["TypeScript", "Supabase", "React"],
+      codeLink: "https://github.com/yash-2200030856/Sanchari-escapes.git",
+      liveLink: "https://sanchari-escapes.vercel.app/",
+      period: "Aug 2025 - Dec 2025",
+      featured: true
+    },
+    {
       title: "Banking and Finance Management System",
       description: "A full-stack application with JWT authentication, React frontend and Spring Boot backend to manage transaction records efficiently.",
       image: "https://www.slideteam.net/media/catalog/product/cache/1280x720/b/a/banking_powerpoint_ppt_template_bundles_slide01.jpg",
       tags: ["Java", "React", "Spring Boot", "MongoDB"],
       codeLink: "https://github.com/yash-2200030856/Banking.git",
       period: "Aug 2025 - Nov 2025",
+      featured: true
+    },
+    {
+      title: "Price Comparision System",
+      description: "A web application that allows users to compare prices of products across different e-commerce platforms, helping them make informed purchasing decisions.",
+      image: "https://th.bing.com/th/id/OIP.BPhpqZScBGnlbcMNiwcUvQHaD4?w=278&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
+      tags: ["PostgreSQL", "Django", "HTML/CSS", "Node.js"],
+      codeLink: "https://github.com/yash-2200030856/price-comparison-project.git",
+      period: "Aug 2023 - Nov 2023",
       featured: true
     },
     {
@@ -54,25 +73,8 @@ const Projects = () => {
       codeLink: "https://github.com/yash-2200030856/Rating_Review_System.git",
       period: "Jul 2025 - Aug 2025",
       featured: true
-    },
-    {
-      title: "Price Comparision System",
-      description: "A web application that allows users to compare prices of products across different e-commerce platforms, helping them make informed purchasing decisions.",
-      image: "https://th.bing.com/th/id/OIP.BPhpqZScBGnlbcMNiwcUvQHaD4?w=278&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1",
-      tags: ["PostgreSQL", "Django", "HTML/CSS", "Node.js"],
-      codeLink: "https://github.com/yash-2200030856/price-comparison-project.git",
-      period: "Aug 2023 - Nov 2023",
-      featured: true
-    },
-    {
-      title: "Sanchari Escapes Travel Website",
-      description: "A dynamic travel website offering tour packages, bookings, and user reviews, built with TypeScript and Supabase(online server) to enhance user experience and streamline travel planning.",
-      image: "https://th.bing.com/th/id/OIP.QCHSvGP4KbFCVpb4P6VnswHaEK?w=272&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
-      tags: ["TypeScript", "Supabase", "React"],
-      codeLink: "https://github.com/yash-2200030856/Sanchari-escapes.git",
-      period: "Aug 2025 - Dec 2025",
-      featured: true
     }
+    
   ];
 
   return (
@@ -149,6 +151,17 @@ const Projects = () => {
                     <Github className="w-4 h-4 mr-1" />
                     View Code
                   </a>
+                  {project.liveLink && (
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-sm font-medium text-blue-400 hover:text-blue-300 transition-all duration-300 hover:translate-x-1"
+                    >
+                      <ExternalLink className="w-4 h-4 mr-1" />
+                      Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

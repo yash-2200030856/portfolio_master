@@ -240,7 +240,7 @@ const About = () => {
                 </a>
                 
                 <a 
-                  href="https://drive.google.com/file/d/1WwGIyixKabrWDQTE58NDX0_5_e1G_NVH/view?usp=drive_link" 
+                  href="https://drive.google.com/file/d/1FVc1p9Q5oBboi-iH2m1zcSs5BcyrpilQ/view?usp=sharing" 
                   className="inline-flex items-center gap-2 text-blue-400 hover:text-blue-500 animated-link"
                 >
                   Download Resume

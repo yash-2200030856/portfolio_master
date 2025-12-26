@@ -62,7 +62,16 @@ const Projects = () => {
       tags: ["PostgreSQL", "Django", "HTML/CSS", "Node.js"],
       codeLink: "https://github.com/yash-2200030856/price-comparison-project.git",
       period: "Aug 2023 - Nov 2023",
-      featured: false
+      featured: true
+    },
+    {
+      title: "Sanchari Escapes Travel Website",
+      description: "A dynamic travel website offering tour packages, bookings, and user reviews, built with TypeScript and Supabase(online server) to enhance user experience and streamline travel planning.",
+      image: "https://th.bing.com/th/id/OIP.QCHSvGP4KbFCVpb4P6VnswHaEK?w=272&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      tags: ["TypeScript", "Supabase", "React"],
+      codeLink: "https://github.com/yash-2200030856/Sanchari-escapes.git",
+      period: "Aug 2025 - Dec 2025",
+      featured: true
     }
   ];
 

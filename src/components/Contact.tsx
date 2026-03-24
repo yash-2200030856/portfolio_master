@@ -91,7 +91,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-800/50 text-white transition-all duration-200"
-                  placeholder="your name"
+                  placeholder="Your name"
                 />
               </div>
               
@@ -107,7 +107,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-800/50 text-white transition-all duration-200"
-                  placeholder="your email"
+                  placeholder="Your email"
                 />
               </div>
               
@@ -123,7 +123,7 @@ const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-800/50 text-white transition-all duration-200"
-                  placeholder="subject"
+                  placeholder="Subject"
                 />
               </div>
               
@@ -139,7 +139,7 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-800/50 text-white transition-all duration-200 resize-none"
-                  placeholder="your message..."
+                  placeholder="Your message..."
                 />
               </div>
               

@@ -155,7 +155,7 @@ const About = () => {
     {
       degree: "B.Tech",
       institute: "Koneru Lakshmaiah Education Foundation",
-      score: "CGPA: 8.95",
+      score: "CGPA: 9.00",
       year: "2022-2026",
       icon: <GraduationCap />,
       logo: klLogo,
